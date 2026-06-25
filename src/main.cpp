@@ -6,8 +6,8 @@
 WebServer server(80);
 
 const int ledPin = 2; 
-const char* SSID = "Victors Machine"; 
-const char* password = "COOL12345"; 
+const char* SSID = ""; 
+const char* password = ""; 
 
 String page(){
   return "<h1>hello world<h1>";
